@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('./images/halie-west.jpg');
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container{
+    background-color: white;
+}
+
+.text {
+    padding-top: 0;
+    background-color: gray;
+}
+
+.image {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50%;
+}
+
+.image img {
+    align-items: center;
+}
+
+.names, .contacts {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.names > *, .contacts > * {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+input {
+    border-radius: 5px;
+}
+input[type='text'] {
+    border-color: #E5E7EB;   
+}
+
+input:focus {
+    border-color: blue;
+}

@@ -3,59 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
-        <div class="image">
-            <img src="./images/odin-lined.png" alt="Odin logo">
+    <div class="body-container">
+        <div id="background-image">
+            <img src="images/halie-west.jpg" alt="">
+            <div id="odin-logo">
+                <img src="images/odin-lined.png" alt="">
+            </div>
         </div>
-        <div class="form-container">
-            <div class="text">
-                <p class="text1">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
-                <p class="text1">You know you want to.</p>
-            </div>
-            <div class="form">
-                <p class="text1">Let's do this!</p>
-                <form action="" method="post">
-                    <div class="names">
-                        <div id="first">
-                            <label for="first">FIRST NAME</label>
-                            <input type="text" id="first" name="first-name">
-                        </div>
-                        <div id="second">
-                            <label for="second">LAST NAME</label>
-                            <input type="text" id="second" name="second-name">
-                        </div>
+        <div id="form-container">
+            <form action="#" method="post" id="form">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started</p>
+                <div>
+                    <p>Let's do this!</p>
+                    <div>
+                        <label for="first_name">First Name</label>
+                        <input type="text" id="first_name" name="first_name"/>
+                        <label for="last_name">Last Name</label>
+                        <input type="text" id="last_name" name="last_name"/>
                     </div>
-                    <div class="contacts">
-                        <div id="email">
-                            <label for="email">EMAIL</label>
-                            <input type="email" id="email" name="email">
-                        </div>
-                        <div id="tel">
-                            <label for="tel">PHONE NUMBER</label>
-                            <input type="tel" id="tel" name="tel">
-                        </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email"/>
+                        <label for="tel">Phone Number</label>
+                        <input type="tel" id="tel" name="tel"/>
                     </div>
-                    <div class="permissions">
-                        <div class="pass">
-                            <label for="password">PASSWORD</label>
-                            <input type="password" id="password" name="password" required>
-                        </div>
-                        <div class="conf-pass">
-                            <label for="confirm-password">CONFIRM PASSWORD</label>
-                            <input type="password" id="confirm-password" name="confirm-password" required>
-                        </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password"/>
+                        <label for="cpassword">Confirm Password</label>
+                        <input type="password" id="cpassword" name="confirmed_password"/>
                     </div>
-                </form>
-            </div>
-            <div class="footer">
-                <input type="submit" value="Create Account" class="submit">
-                <p class="text">Already have an account? <a href="#">Log in</a></p>
-            </div>
-            
+                </div>
+                <div>
+                    <button>Create Account</button>
+                    <p>Already have an account? <span>Log in</span></p>
+                </div>
+            </form>
         </div>
     </div>
 </body>

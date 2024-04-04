@@ -1,62 +1,18 @@
-body {
-    margin: 0;
-    padding: 0;
+* {
     box-sizing: border-box;
-    background-image: url('./images/halie-west.jpg');
 }
 
-.container {
+body {
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 0;
+    padding: 0.5em;
+    background: #222 url(images/halie-west.jpg);
 }
 
-.form-container{
-    background-color: white;
+.body-container {
+    font-family: inherit;
+    font-size: 100%;
+    width: 400px;
 }
 
-.form {
-    padding: 20px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-}
-
-.submit {
-    margin-left: 20px;
-    margin-top: 20px;
-}
-.text {
-    padding-top: 0;
-    background-color: gray;
-}
-
-.image {
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 50%;
-}
-
-.image img {
-    align-items: center;
-}
-
-.names, .contacts, .permissions {
-    display: flex;
-    align-items: center;
-    justify-content: flex-between;
-}
-
-.names > *, .contacts > *, .permissions > * {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-bottom: 10px;
-}
-input {
-    border-radius: 5px;
-}
-input[type='text'] {
-    border-color: #E5E7EB;   
-}
-
-input:focus {
-    border-color: blue;
-}

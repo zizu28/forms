@@ -3,46 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>ZIZU SIGNUP FORM</title>
 </head>
 <body>
     <div class="body-container">
-        <div id="background-image">
-            <img src="images/halie-west.jpg" alt="">
-            <div id="odin-logo">
-                <img src="images/odin-lined.png" alt="">
-            </div>
+       <div class="left-container">
+        <div class="odin">
+            <img src="images/odin-lined.png" alt="" class="odin-logo">
+            <div class="odin-text">ODIN</div>
         </div>
-        <div id="form-container">
-            <form action="#" method="post" id="form">
-                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started</p>
-                <div>
-                    <p>Let's do this!</p>
-                    <div>
-                        <label for="first_name">First Name</label>
-                        <input type="text" id="first_name" name="first_name"/>
-                        <label for="last_name">Last Name</label>
-                        <input type="text" id="last_name" name="last_name"/>
+        <div class="img-acknowledgement">Picture by <a href="https://unsplash.com/@haliewestphoto" target="_blank">Halie
+            West</a> on <a href="https://unsplash.com/fr" target="_blank">Unsplash</a></div>
+       </div>
+       <div class="right-container">
+        <h2 class="intro-text">This is not a real online service! You know you need something like this in your life to
+            help you realize your deepest dreams.<br>Sign up <em>now</em> to get started.<br><br>You <em>know</em> you want to. </h2>
+            <form action="#">
+                <h2>Let's do this!</h2>
+                <div class="form-inputs">
+                    <div class="inputs-list">
+                        <div class="inputs">
+                            <label for="first_name">First Name</label>
+                            <input type="text" id="first_name" name="first_name">
+                            <span></span>
+                        </div>
+                        <div class="inputs">
+                            <label for="last_name">Last Name</label>
+                            <input type="text" id="last_name" name="last_name">
+                            <span></span>
+                        </div>
+                        <div class="inputs">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email">
+                            <span></span>
+                        </div>
+                        <div class="inputs">
+                            <label for="tele">Phone Number</label>
+                            <input type="tel" id="tele" name="phone_number">
+                            <span></span>
+                        </div>
+                        <div class="inputs">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password">
+                            <span></span>
+                        </div>
+                        <div class="inputs">
+                            <label for="confirmed">Confirmed Password</label>
+                            <input type="password" id="confirmed" name="confirmed_password">
+                            <span></span>
+                        </div>
                     </div>
-                    <div>
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email"/>
-                        <label for="tel">Phone Number</label>
-                        <input type="tel" id="tel" name="tel"/>
-                    </div>
-                    <div>
-                        <label for="password">Password</label>
-                        <input type="password" id="password" name="password"/>
-                        <label for="cpassword">Confirm Password</label>
-                        <input type="password" id="cpassword" name="confirmed_password"/>
-                    </div>
+                    
                 </div>
-                <div>
+                <div class="submit-btn">
                     <button>Create Account</button>
-                    <p>Already have an account? <span>Log in</span></p>
                 </div>
             </form>
-        </div>
+            <div class="login">Already have an account? <a href="#">Log in</a></div>
+       </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

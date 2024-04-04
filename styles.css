@@ -62,12 +62,14 @@ body {
 .form-inputs {
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px;
-    padding: 15px 20% 15px 40px;
-    margin: 30px 0;
+    max-width: 80%;
+    padding: 0 20px;
+    margin: 30px auto;
 }
 
-.intro-text {
-    margin: 0 40px 50px 40px;
+.intro-text, h2 {
+    max-width: 70%;
+    margin: 30px auto;
 }
 
 .inputs-list {
@@ -88,6 +90,8 @@ body {
 }
 
 .submit-btn button {
+    width: 20%;
+    margin: 10px 500px 10px;
     background-color: #596D48;
     color: white;
     font-weight: 600;
